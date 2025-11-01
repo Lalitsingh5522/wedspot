@@ -13,8 +13,8 @@ print(success_message,end= '\n\n')
 
 
 llm = chat_gemini_lite(
-    temperature=0,
-    max_tokens= 100,
+    temperature=0.2,
+    max_tokens= 200,
     timeout=None,
     max_retries=2,
     )
