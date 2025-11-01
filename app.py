@@ -40,10 +40,10 @@ if st.button("Find Options"):
 
 with st.expander("📋 View All Vendors"):
     for _, row in vendors.iterrows():
-        st.image(row["image_url"], width=200)
-        st.subheader(row["name"])
-        st.write(f"📍 {row['address']}")
+        # st.image(row["image_url"], width=200)
+        st.subheader(row["Name"])
+        st.write(f"📍 {row['Address']}")
         st.write(f"💰 {row['price_range']}")
-        st.write(f"📞 {row['contact']}")
-        st.write(f"{row['description']}")
+        st.write(f"📲 {row['contact 1']}")
+        st.write(f"📞 {row['contact 2']}")
         st.divider()
