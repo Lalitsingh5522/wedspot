@@ -21,7 +21,7 @@ llm = chat_gemini_lite(
 
 vendors = pd.read_excel('data/vendors.xlsx')
 
-st.title("💍 Ranikhet Wedding Finder")
+st.title("💍 Ranikhet Wedspot Finder")
 st.write("Discover trusted banquet halls, caterers, and tent services in Ranikhet.")
 
 query = st.text_input("What are you looking for?", "banquet hall for 150 people")
